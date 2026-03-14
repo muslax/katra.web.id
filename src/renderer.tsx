@@ -6,9 +6,10 @@ export const renderer = jsxRenderer(({ children }) => {
     <html>
       <head>
         <ViteClient />
-        <Link href="/src/style.css" rel="stylesheet" />
+        <Link href="/src/styles/app.css" rel="stylesheet" />
+        <script type="module" src="/datastar/v1.0.0-RC.8/datastar.js"></script>
       </head>
       <body>{children}</body>
     </html>
-  )
+  );
 })
