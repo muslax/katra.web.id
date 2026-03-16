@@ -1,0 +1,4 @@
+.valley {
+  position: relative;
+  background-color: var(--valley-color);
+}

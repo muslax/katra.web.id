@@ -1,0 +1,45 @@
+.fancy-zz-up {
+  position: relative;
+  padding-top: 0px;
+}
+.fancy-zz-up::before,
+.fancy-zz-up::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -12px;
+  height: 12px;
+  width: 100%;
+  mask-repeat: repeat-x;
+}
+.fancy-zz-up::before {
+  background-color: rgba(88,88,88,.25);
+  mask-image:url('/svg/trim-zz-bottom-line.svg');
+}
+.fancy-zz-up::after {
+  background-color: var(--mask-color);
+  mask-image:url('/svg/trim-zz-bottom-surface.svg');
+}
+
+.fancy-zz-down {
+  position: relative;
+  padding-top: 0px;
+}
+.fancy-zz-down::before,
+.fancy-zz-down::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  height: 12px;
+  width: 100%;
+  mask-repeat: repeat-x;
+}
+.fancy-zz-down::before {
+  background-color: rgba(88,88,88,.55);
+  mask-image:url('/svg/trim-zz-top-line.svg');
+}
+.fancy-zz-down::after {
+  background-color: var(--mask-color);
+  mask-image:url('/svg/trim-zz-top-surface.svg');
+}

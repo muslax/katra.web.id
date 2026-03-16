@@ -1,3 +1,13 @@
+:root {
+  --page-color: floralwhite;
+  --header-color: white;
+  --valley-color: mediumseagreen;
+  --accent-color: cornflowerblue;
+}
+*, :after, :before {
+  --base-color: white;
+}
+
 * {
   box-sizing: border-box;
   margin:0;
@@ -14,13 +24,54 @@ html, body {
   font-weight: 400;
   font-style: normal;
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* font-size: 14px; */
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* body > main { padding-top: 80px; } */
+body > main > section:first-child { padding-top: 90px; }
+.katra-space {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 22px;
 }
 
 .inter { font-family: InterVariable, sans-serif; }
 .ibm-plex-sans { font-family: "IBM Plex Sans", sans-serif; }
 .roboto { font-family: "Roboto Serif", serif; }
 .jetbrains { font-family: "JetBrains Mono", monospace; }
+
+section.page {
+  background-color: var(--page-color);
+  --mask-color: var(--page-color);
+}
+
+button.btn-rec {
+  display: inline-flex;
+  align-items: center;
+  appearance: none;
+  color: white;
+  border: 2px solid white;
+  height:48px;
+  padding:0 2rem;
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  transition: border-radius 0.2s ease-in-out;
+  &:hover {
+    border-radius: 99px;
+    background-color: #3a69bf;
+  }
+}
+
+button.deco {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 2px;
+  gap: 2px;
+
+
+}

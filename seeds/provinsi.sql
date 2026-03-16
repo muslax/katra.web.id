@@ -1,9 +1,9 @@
 INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('11','Aceh','AC','Banda Aceh','Sumatra');
-INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('12','Sumatera Utara','SU','Medan','Sumatra');
-INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('13','Sumatera Barat','SB','Padang','Sumatra');
-INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('14','Riau','RI','Pekanbaru','Sumatera');
+INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('12','Sumatra Utara','SU','Medan','Sumatra');
+INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('13','Sumatra Barat','SB','Padang','Sumatra');
+INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('14','Riau','RI','Pekanbaru','Sumatra');
 INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('15','Jambi','JA','Jambi','Sumatra');
-INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('16','Sumatera Selatan','SS','Palembang','Sumatra');
+INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('16','Sumatra Selatan','SS','Palembang','Sumatra');
 INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('17','Bengkulu','BE','Bengkulu','Sumatra');
 INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('18','Lampung','LA','Bandar Lampung','Sumatra');
 INSERT INTO "provinsi" (kode, nama, iso, ibukota, geografi) VALUES('19','Kepulauan Bangka Belitung','BB','Pangkalpinang','Sumatra');
