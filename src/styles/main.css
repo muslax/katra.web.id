@@ -14,9 +14,11 @@
   padding:0;
   font-weight: 400;
   font-style: normal;
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: inherit;
+  font-weight: inherit;
   /* font-size: 14px; */
-  line-height: 1.4;
+  line-height: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,8 +31,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* body > main { padding-top: 80px; } */
-body > main > section:first-child { padding-top: 90px; }
 .katra-space {
   max-width: 1050px;
   margin: 0 auto;
